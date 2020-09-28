@@ -7,9 +7,11 @@
 
 <h1>Login</h1>
 
-<form action="http://example.com">
-	<input type="text" name="username" placeholder="username">
-	<input type="password" name="password" placeholder="password">
+<form action="http://example.com" method="post">
+	<label for="email">Email:</label>
+	<input id="email" type="email" placeholder="email" required>
+	<label for="password">Password:</label>
+	<input id="password" type="password" placeholder="password" required>
 	<input type="Submit">
 </form>
 
