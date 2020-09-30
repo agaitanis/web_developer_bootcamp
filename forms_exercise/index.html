@@ -16,11 +16,11 @@
 
 		<div>
 			<label>Male</label>
-			<input id="male" type="radio" name="gender" value="male">
+			<input id="male" type="radio" name="gender" value="male" required>
 			<label>Female</label>
-			<input id="female" type="radio" name="gender" value="female">
+			<input id="female" type="radio" name="gender" value="female" required>
 			<label>Other</label>
-			<input id="other" type="radio" name="gender" value="other">
+			<input id="other" type="radio" name="gender" value="other" required>
 		</div>
 
 		<div>
@@ -32,8 +32,8 @@
 
 		<div>
 			<label>Birthday
-				<select name="month">
-					<option selected disabled>Month</option>
+				<select name="month" required>
+					<option value="" selected disabled>Month</option>
 					<option>January</option>
 					<option>February</option>
 					<option>March</option>
@@ -47,8 +47,8 @@
 					<option>November</option>
 					<option>December</option>
 				</select>
-				<select name="day">
-					<option selected disabled>Day</option>
+				<select name="day" required>
+					<option value="" selected disabled>Day</option>
 					<option>1</option>
 					<option>2</option>
 					<option>3</option>
@@ -81,8 +81,8 @@
 					<option>30</option>
 					<option>31</option>
 				</select>
-				<select name="year">
-					<option selected disabled>Year</option>
+				<select name="year" required>
+					<option value="" selected disabled>Year</option>
 					<option>1980</option>
 					<option>1981</option>
 					<option>1982</option>
@@ -112,7 +112,7 @@
 
 		<div>
 			<label for="agreed">I agree to the terms and conditions</label>
-			<input id="agreed" type="checkbox" name="agreed" required>
+			<input id="agreed" type="checkbox" required>
 		</div>
 
 		<div>
