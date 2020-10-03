@@ -1,11 +1,21 @@
 h1 {
-	color: red;
+/*	color: rgba(0, 200, 100, 0.8);
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+	border: 2px solid purple
 }
 
 h4 {
-	color: purple;
+	background: rgb(255, 100, 80);
 }
 
 li {
 	color: green;
+}
+
+body {
+	background: url(https://www.wallpaperstore.gr/wp-content/uploads/2018/11/RMK3502WP1-800x800.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
