@@ -18,7 +18,7 @@ h2 {
 
 /* Make all <li> elements blue(pick your own hexadecimal blue)*/ 
 li {
-	color: #0000aa;
+	color: #0011aa;
 }
 
 /*Change the background on every paragraph to be yellow*/
@@ -29,6 +29,9 @@ p {
 /*Make all inputs have a 3px red border*/
 input {
 	border: 3px solid red;
+/*	border-width: 3px;
+	border-style: solid;
+	border-color: red;*/
 }
 
 /* Give everything with the class 'hello' a white background*/
@@ -38,7 +41,7 @@ input {
 
 /* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
 #special {
-	border: 2px solid rgb(0, 0, 200);
+	border: 2px solid rgb(0, 100, 200);
 }
 
 /*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
@@ -47,7 +50,7 @@ div p {
 }
 
 /*Make only inputs with type 'text' have a gray background*/
-input[type=text] {
+input[type="text"] {
 	background-color: gray;
 }
 
@@ -58,7 +61,7 @@ div:nth-of-type(3) p {
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
 div:nth-of-type(3) p:nth-of-type(2) {
-	border: 5px white solid
+	border: 5px solid white
 }
 
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
@@ -72,7 +75,7 @@ div:nth-of-type(3) em {
 /*You may need to research some other selectors and properties*/
 
 /*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
-input[type=checkbox]:checked {
+input[type="checkbox"]:checked {
 	margin-left: 50px;
 }
 
