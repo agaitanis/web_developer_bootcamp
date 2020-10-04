@@ -1,11 +1,12 @@
 /* font-family */
 p {
-	font-family: arial;
+	font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-	font-family: georgia;
+	font-family: 'Indie Flower', cursive;
 }
+
 
 /* font-size */
 h1 {
@@ -16,30 +17,33 @@ p {
 	font-size: 1em;
 }
 
-#span1 {
+#big {
 	font-size: 2em;
 }
 
-/* font-weight */
-/*p {
+#bold {
 	font-weight: bold;
-}*/
+}
+
 
 /* line-spacing */
 p {
 	line-height: 1.5;
 }
 
+
 /* text-align */
 h1 {
 	text-align: center;
 }
 
+
 /* text-decoration */
-h1 {
+#line-through {
+	text-decoration: line-through;
+}
+
+#underline {
 	text-decoration: underline;
 }
 
-#span2 {
-	text-decoration: line-through;
-}
